@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="json">
+      <UniqueIdentifier>{c50295f2-8463-4336-953a-abcf7703f338}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="skse64">
+      <UniqueIdentifier>{927f3717-38fc-4402-9806-a503a1191554}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Data.cpp" />
+    <ClCompile Include="Schlongification.cpp" />
+    <ClCompile Include="Storage.cpp" />
+    <ClCompile Include="Util.cpp" />
+    <ClCompile Include="Armors.cpp" />
+    <ClCompile Include="Papyrus.cpp" />
+    <ClCompile Include="jsoncpp.cpp" />
+    <ClCompile Include="SosIO.cpp" />
+    <ClCompile Include="StorageJSON.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Data.h" />
+    <ClInclude Include="Schlongification.h" />
+    <ClInclude Include="Storage.h" />
+    <ClInclude Include="Util.h" />
+    <ClInclude Include="Armors.h" />
+    <ClInclude Include="Papyrus.h" />
+    <ClInclude Include="json\json.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\json-forwards.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="SosIO.h" />
+    <ClInclude Include="StorageJSON.h" />
+  </ItemGroup>
+</Project>
